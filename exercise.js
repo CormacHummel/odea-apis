@@ -2,14 +2,19 @@
 
 function add(a, b) {
   // Return the sum of two numbers
+  return a + b;
 }
 
 function square(n) {
   // Return the square of a number
+  return n * n;
 }
 
 function evenOrOdd(n) {
   // Return "even" if n is even, otherwise "odd"
+  if (n % 2 === 0) {
+    return "even";
+  }
 }
 
 function maxOfTwo(a, b) {
